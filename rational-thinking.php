@@ -203,6 +203,27 @@ function rational_thinking_add_settings_page() {
 }
 add_action( 'admin_menu', 'rational_thinking_add_settings_page' );
 
+add_action( 'admin_init', 'rational_thinking_handle_save' );
+
+/**
+ * Handle settings save on admin_init.
+ */
+function rational_thinking_handle_save() {
+	if ( isset( $_POST['rational_thinking_save'] ) && check_admin_referer( 'rational_thinking_options_update' ) ) {
+		// Verify permissions
+		if ( ! current_user_can( 'read' ) ) {
+			return;
+		}
+
+		$new_lang = isset( $_POST['rational_thinking_lang'] ) ? sanitize_text_field( $_POST['rational_thinking_lang'] ) : 'en';
+		update_user_meta( get_current_user_id(), 'rational_thinking_lang', $new_lang );
+		
+		// Optional: Redirect to avoid form resubmission? 
+		// For now, we stick to the requested fix (updating immediately) without enforcing a redirect loop,
+		// relying on the fact that update_user_meta clears cache for the current request.
+	}
+}
+
 /**
  * Render the settings page.
  */
@@ -212,23 +233,14 @@ function rational_thinking_render_settings_page() {
 	$data         = rational_thinking_get_language_data( $current_lang );
 	$ui           = $data['settings'];
 
-	// Handle form submission
+	// Check if we just saved to display the message
 	if ( isset( $_POST['rational_thinking_save'] ) && check_admin_referer( 'rational_thinking_options_update' ) ) {
-		$new_lang = isset( $_POST['rational_thinking_lang'] ) ? sanitize_text_field( $_POST['rational_thinking_lang'] ) : 'en';
-		update_user_meta( get_current_user_id(), 'rational_thinking_lang', $new_lang );
-		
-		// Reload data if language changed to show confirmation in new language
-		$current_lang = $new_lang;
-		$data         = rational_thinking_get_language_data( $current_lang );
-		$ui           = $data['settings'];
-
 		echo '<div class="updated"><p>' . esc_html( $ui['saved_message'] ) . '</p></div>';
 	}
 
 	$languages    = rational_thinking_get_available_languages();
 	?>
 	<div class="wrap">
-		<!-- Please translate the Phrases here -->
 		<h1><?php echo esc_html( $ui['title'] ); ?></h1>
 		<form method="post" action="">
 			<?php wp_nonce_field( 'rational_thinking_options_update' ); ?>
