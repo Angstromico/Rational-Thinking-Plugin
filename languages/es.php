@@ -1,0 +1,23 @@
+<?php
+return [
+	"Para mí, es mucho mejor comprender el Universo tal como es realmente que persistir en el engaño, por muy satisfactorio y tranquilizador que sea. - Carl Sagan",
+	"Las afirmaciones extraordinarias requieren pruebas extraordinarias. - Carl Sagan",
+	"Vivimos en una sociedad exquisitamente dependiente de la ciencia y la tecnología, en la cual casi nadie sabe nada sobre ciencia y tecnología. - Carl Sagan",
+	"¿Quién es más humilde? ¿El científico que mira el universo con una mente abierta y acepta lo que el universo tiene para enseñarnos, o alguien que dice que todo en este libro debe considerarse la verdad literal y no importa la falibilidad de todos los seres humanos involucrados? - Carl Sagan",
+	"El primer principio es que no debes engañarte a ti mismo y tú eres la persona más fácil de engañar. - Richard Feynman",
+	"Prefiero tener preguntas que no pueden ser respondidas que respuestas que no pueden ser cuestionadas. - Richard Feynman",
+	"La religión es una cultura de fe; la ciencia es una cultura de duda. - Richard Feynman",
+	"No hay daño en la duda y el escepticismo, porque es a través de estos que se hacen nuevos descubrimientos. - Richard Feynman",
+	"El problema con el mundo es que los estúpidos están seguros de todo y los inteligentes están llenos de dudas. - Bertrand Russell",
+	"No temas ser excéntrico en tu opinión, porque cada opinión aceptada ahora fue una vez excéntrica. - Bertrand Russell",
+	"Nunca moriría por mis creencias porque podría estar equivocado. - Bertrand Russell",
+	"En todos los asuntos es algo saludable de vez en cuando poner un signo de interrogación en las cosas que has dado por sentado durante mucho tiempo. - Bertrand Russell",
+	"La creencia es la muerte de la inteligencia. - Robert Anton Wilson",
+	"Lo que puede afirmarse sin pruebas puede desestimarse sin pruebas. - Christopher Hitchens",
+	"Debemos respetar la religión del prójimo, pero sólo en el sentido y en la medida en que respetamos su teoría de que su esposa es hermosa y sus hijos inteligentes. - H.L. Mencken",
+	"El escepticismo es la castidad del intelecto, y es vergonzoso rendirse demasiado pronto al primer llegado. - George Santayana",
+	"La ciencia es la mejor herramienta que tenemos para entender el mundo. - Julia Galef",
+	"Mentalidad de soldado vs mentalidad de explorador: El soldado quiere defender sus creencias, el explorador quiere ver las cosas como realmente son. - Julia Galef",
+	"No basta con tener una buena mente; lo principal es usarla bien. - Rene Descartes",
+	"La honestidad es el primer capítulo en el libro de la sabiduría. - Thomas Jefferson",
+];

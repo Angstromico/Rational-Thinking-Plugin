@@ -1,0 +1,23 @@
+<?php
+return [
+	"Minulle on paljon parempi ymmärtää maailmankaikkeus sellaisena kuin se todella on kuin pysyä harhaluulossa, olipa se kuinka tyydyttävä ja rauhoittava tahansa. - Carl Sagan",
+	"Yhäkkäät väitteet vaativat poikkeuksellisia todisteita. - Carl Sagan",
+	"Elämme yhteiskunnassa, joka on erinomaisen riippuvainen tieteestä ja teknologiasta, ja jossa tuskin kukaan tietää mitään tieteestä ja teknologiasta. - Carl Sagan",
+	"Kuka on nöyrempi? Tiedemies, joka katsoo maailmankaikkeutta avoimin mielin ja hyväksyy kaiken, mitä maailmankaikkeudella on meille opetettavaa, vai joku, joka sanoo, että kaikkea tässä kirjassa on pidettävä kirjaimellisena totuutena eikä välitä kaikkien mukana olevien ihmisten erehtyväisyydestä? - Carl Sagan",
+	"Ensimmäinen periaate on, että et saa huijata itseäsi, ja olet helpoin ihminen huijata. - Richard Feynman",
+	"Minulla on mieluummin kysymyksiä, joihin ei voida vastata, kuin vastauksia, joita ei voida kyseenalaistaa. - Richard Feynman",
+	"Uskonto on uskon kulttuuria; tiede on epäilyn kulttuuria. - Richard Feynman",
+	"Epäilyssä ja skeptisyydessä ei ole mitään pahaa, sillä juuri niiden kautta tehdään uusia löytöjä. - Richard Feynman",
+	"Koko maailman ongelma on se, että hölmöt ja fanaatikot ovat aina niin varmoja itsestään ja viisaammat ihmiset niin täynnä epäilyksiä. - Bertrand Russell",
+	"Älä pelkää olla mielipiteissäsi omalaatuinen, sillä jokainen nyt hyväksytty mielipide oli kerran omalaatuinen. - Bertrand Russell",
+	"En koskaan kuolisi uskomusteni puolesta, koska saatan olla väärässä. - Bertrand Russell",
+	"Kaikissa asioissa on terveellistä silloin tällöin asettaa kysymysmerkki asioille, joita on pitkään pitänyt itsestäänselvyyksinä. - Bertrand Russell",
+	"Usko on älykkyyden kuolema. - Robert Anton Wilson",
+	"Se, mitä voidaan väittää ilman todisteita, voidaan hylätä ilman todisteita. - Christopher Hitchens",
+	"Meidän on kunnioitettava toisen uskontoa, mutta vain siinä mielessä ja siinä määrin kuin kunnioitamme hänen teoriaansa siitä, että hänen vaimonsa on kaunis ja lapsensa älykkäitä. - H.L. Mencken",
+	"Skeptisyys on älyn siveyttä, ja on häpeällistä luovuttaa se liian pian ensimmäiselle tulijalle. - George Santayana",
+	"Tiede on paras työkalu, joka meillä on maailman ymmärtämiseen. - Julia Galef",
+	"Sotilaan ajattelutapa vs. tiedustelijan ajattelutapa: Sotilas haluaa puolustaa uskomuksiaan, tiedustelija haluaa nähdä asiat sellaisina kuin ne todella ovat. - Julia Galef",
+	"Ei riitä, että on hyvä mieli; pääasia on käyttää sitä hyvin. - Rene Descartes",
+	"Rehellisyys on viisauden kirjan ensimmäinen luku. - Thomas Jefferson",
+];

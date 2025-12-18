@@ -1,0 +1,23 @@
+<?php
+return [
+	"Pour moi, il vaut bien mieux saisir l'Univers tel qu'il est vraiment que de persister dans l'illusion, aussi satisfaisante et rassurante soit-elle. - Carl Sagan",
+	"Des affirmations extraordinaires nécessitent des preuves extraordinaires. - Carl Sagan",
+	"Nous vivons dans une société délicieusement dépendante de la science et de la technologie, dans laquelle presque personne ne sait rien de la science et de la technologie. - Carl Sagan",
+	"Qui est le plus humble ? Le scientifique qui regarde l'univers avec un esprit ouvert et accepte tout ce que l'univers a à nous apprendre, ou quelqu'un qui dit que tout dans ce livre doit être considéré comme la vérité littérale et ne se soucie pas de la faillibilité de tous les êtres humains impliqués ? - Carl Sagan",
+	"Le premier principe est que vous ne devez pas vous tromper vous-même et vous êtes la personne la plus facile à tromper. - Richard Feynman",
+	"Je préfère avoir des questions auxquelles on ne peut pas répondre que des réponses qui ne peuvent pas être remises en question. - Richard Feynman",
+	"La religion est une culture de foi ; la science est une culture de doute. - Richard Feynman",
+	"Il n'y a aucun mal dans le doute et le scepticisme, car c'est grâce à eux que de nouvelles découvertes sont faites. - Richard Feynman",
+	"Le problème avec le monde est que les imbéciles et les fanatiques sont toujours si sûrs d'eux-mêmes, et les gens plus sages si pleins de doutes. - Bertrand Russell",
+	"Ne craignez pas d'être excentrique dans vos opinions, car chaque opinion maintenant acceptée était autrefois excentrique. - Bertrand Russell",
+	"Je ne mourrais jamais pour mes croyances parce que je pourrais avoir tort. - Bertrand Russell",
+	"Dans toutes les affaires, il est sain de temps en temps de mettre un point d'interrogation sur les choses que vous teniez pour acquises depuis longtemps. - Bertrand Russell",
+	"La croyance est la mort de l'intelligence. - Robert Anton Wilson",
+	"Ce qui peut être affirmé sans preuve peut être rejeté sans preuve. - Christopher Hitchens",
+	"Nous devons respecter la religion de l'autre, mais seulement dans le sens et dans la mesure où nous respectons sa théorie selon laquelle sa femme est belle et ses enfants intelligents. - H.L. Mencken",
+	"Le scepticisme est la chasteté de l'intellect, et il est honteux de l'abandonner trop tôt au premier venu. - George Santayana",
+	"La science est le meilleur outil dont nous disposons pour comprendre le monde. - Julia Galef",
+	"État d'esprit du soldat vs état d'esprit de l'éclaireur : Le soldat veut défendre ses croyances, l'éclaireur veut voir les choses telles qu'elles sont vraiment. - Julia Galef",
+	"Il ne suffit pas d'avoir un bon esprit ; l'essentiel est de bien l'utiliser. - René Descartes",
+	"L'honnêteté est le premier chapitre du livre de la sagesse. - Thomas Jefferson",
+];

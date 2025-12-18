@@ -1,0 +1,23 @@
+<?php
+return [
+	"Für mich ist es weit besser, das Universum so zu erfassen, wie es wirklich ist, als in Täuschung zu verharren, wie befriedigend und beruhigend sie auch sein mag. - Carl Sagan",
+	"Außergewöhnliche Behauptungen erfordern außergewöhnliche Beweise. - Carl Sagan",
+	"Wir leben in einer Gesellschaft, die exquisit von Wissenschaft und Technologie abhängig ist, in der aber kaum jemand etwas über Wissenschaft und Technologie weiß. - Carl Sagan",
+	"Wer ist demütiger? Der Wissenschaftler, der das Universum mit offenem Geist betrachtet und alles annimmt, was das Universum uns zu lehren hat, oder jemand, der sagt, alles in diesem Buch müsse als wörtliche Wahrheit betrachtet werden, ungeachtet der Fehlbarkeit aller beteiligten Menschen? - Carl Sagan",
+	"Das erste Prinzip ist, dass du dich nicht selbst täuschen darfst, und du bist die am leichtesten zu täuschende Person. - Richard Feynman",
+	"Ich habe lieber Fragen, die nicht beantwortet werden können, als Antworten, die nicht hinterfragt werden können. - Richard Feynman",
+	"Religion ist eine Kultur des Glaubens; Wissenschaft ist eine Kultur des Zweifels. - Richard Feynman",
+	"Es schadet nicht, zu zweifeln und skeptisch zu sein, denn durch diese werden neue Entdeckungen gemacht. - Richard Feynman",
+	"Das ganze Problem mit der Welt ist, dass Narren und Fanatiker sich ihrer Sache immer so sicher sind und weisere Menschen so voller Zweifel. - Bertrand Russell",
+	"Fürchte dich nicht davor, in deiner Meinung exzentrisch zu sein, denn jede Meinung, die jetzt akzeptiert wird, war einmal exzentrisch. - Bertrand Russell",
+	"Ich würde niemals für meine Überzeugungen sterben, weil ich mich irren könnte. - Bertrand Russell",
+	"In allen Angelegenheiten ist es hin und wieder gesund, ein Fragezeichen an die Dinge zu hängen, die man lange für selbstverständlich gehalten hat. - Bertrand Russell",
+	"Glaube ist der Tod der Intelligenz. - Robert Anton Wilson",
+	"Was ohne Beweise behauptet werden kann, kann ohne Beweise verworfen werden. - Christopher Hitchens",
+	"Wir müssen die Religion des anderen respektieren, aber nur in dem Sinne und in dem Maße, wie wir seine Theorie respektieren, dass seine Frau schön und seine Kinder klug sind. - H.L. Mencken",
+	"Skepsis ist die Keuschheit des Intellekts, und es ist schändlich, sie zu früh dem ersten Ankömmling zu übergeben. - George Santayana",
+	"Die Wissenschaft ist das beste Werkzeug, das wir haben, um die Welt zu verstehen. - Julia Galef",
+	"Soldaten-Denkweise vs. Pfadfinder-Denkweise: Der Soldat will seine Überzeugungen verteidigen, der Pfadfinder will die Dinge so sehen, wie sie wirklich sind. - Julia Galef",
+	"Es genügt nicht, einen guten Verstand zu haben; die Hauptsache ist, ihn gut zu gebrauchen. - Rene Descartes",
+	"Ehrlichkeit ist das erste Kapitel im Buch der Weisheit. - Thomas Jefferson",
+];

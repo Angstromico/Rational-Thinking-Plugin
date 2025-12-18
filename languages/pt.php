@@ -1,0 +1,23 @@
+<?php
+return [
+	"Para mim, é muito melhor compreender o Universo como ele realmente é do que persistir no engano, por mais satisfatório e tranquilizador que seja. - Carl Sagan",
+	"Alegações extraordinárias exigem evidências extraordinárias. - Carl Sagan",
+	"Vivemos em uma sociedade primorosamente dependente da ciência e da tecnologia, na qual quase ninguém sabe nada sobre ciência e tecnologia. - Carl Sagan",
+	"Quem é mais humilde? O cientista que olha para o universo com a mente aberta e aceita tudo o que o universo tem a nos ensinar, ou alguém que diz que tudo neste livro deve ser considerado a verdade literal e não se importa com a falibilidade de todos os seres humanos envolvidos? - Carl Sagan",
+	"O primeiro princípio é que você não deve se enganar e você é a pessoa mais fácil de enganar. - Richard Feynman",
+	"Prefiro ter perguntas que não podem ser respondidas do que respostas que não podem ser questionadas. - Richard Feynman",
+	"A religião é uma cultura de fé; a ciência é uma cultura de dúvida. - Richard Feynman",
+	"Não há mal na dúvida e no ceticismo, pois é através deles que novas descobertas são feitas. - Richard Feynman",
+	"O problema com o mundo é que os tolos e fanáticos estão sempre tão certos de si mesmos, e as pessoas mais sábias tão cheias de dúvidas. - Bertrand Russell",
+	"Não tenha medo de ser excêntrico na opinião, pois toda opinião agora aceita já foi excêntrica. - Bertrand Russell",
+	"Eu nunca morreria por minhas crenças porque eu poderia estar errado. - Bertrand Russell",
+	"Em todos os assuntos, é saudável de vez em quando colocar um ponto de interrogação nas coisas que você tem como certas há muito tempo. - Bertrand Russell",
+	"A crença é a morte da inteligência. - Robert Anton Wilson",
+	"O que pode ser afirmado sem evidências pode ser rejeitado sem evidências. - Christopher Hitchens",
+	"Devemos respeitar a religião do próximo, mas apenas no sentido e na medida em que respeitamos a teoria de que sua esposa é bonita e seus filhos inteligentes. - H.L. Mencken",
+	"O ceticismo é a castidade do intelecto, e é vergonhoso entregá-lo cedo demais ao primeiro que chegar. - George Santayana",
+	"A ciência é a melhor ferramenta que temos para entender o mundo. - Julia Galef",
+	"Mentalidade de soldado vs mentalidade de escoteiro: O soldado quer defender suas crenças, o escoteiro quer ver as coisas como elas realmente são. - Julia Galef",
+	"Não basta ter uma boa mente; o principal é usá-la bem. - Rene Descartes",
+	"A honestidade é o primeiro capítulo do livro da sabedoria. - Thomas Jefferson",
+];

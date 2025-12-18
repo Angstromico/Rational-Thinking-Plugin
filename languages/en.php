@@ -1,0 +1,23 @@
+<?php
+return [
+	"For me, it is far better to grasp the Universe as it really is than to persist in delusion, however satisfying and reassuring. - Carl Sagan",
+	"Extraordinary claims require extraordinary evidence. - Carl Sagan",
+	"We live in a society exquisitely dependent on science and technology, in which hardly anyone knows anything about science and technology. - Carl Sagan",
+	"Who is more humble? The scientist who looks at the universe with an open mind and accepts whatever the universe has to teach us, or somebody who says everything in this book must be considered the literal truth and never mind the fallibility of all the human beings involved? - Carl Sagan",
+	"The first principle is that you must not fool yourself and you are the easiest person to fool. - Richard Feynman",
+	"I would rather have questions that can't be answered than answers that can't be questioned. - Richard Feynman",
+	"Religion is a culture of faith; science is a culture of doubt. - Richard Feynman",
+	"There is no harm in doubt and skepticism, for it is through these that new discoveries are made. - Richard Feynman",
+	"The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts. - Bertrand Russell",
+	"Do not fear to be eccentric in opinion, for every opinion now accepted was once eccentric. - Bertrand Russell",
+	"I would never die for my beliefs because I might be wrong. - Bertrand Russell",
+	"In all affairs it's a healthy thing now and then to hang a question mark on the things you have long taken for granted. - Bertrand Russell",
+	"Belief is the death of intelligence. - Robert Anton Wilson",
+	"That which can be asserted without evidence, can be dismissed without evidence. - Christopher Hitchens",
+	"We must respect the other fellow's religion, but only in the sense and to the extent that we respect his theory that his wife is beautiful and his children smart. - H.L. Mencken",
+	"Skepticism is the chastity of the intellect, and it is shameful to surrender it too soon to the first comer. - George Santayana",
+	"Science is the best tool we have for understanding the world. - Julia Galef",
+	"Soldier mindset vs Scout mindset: The soldier wants to defend their beliefs, the scout wants to see things as they really are. - Julia Galef",
+	"It is not enough to have a good mind; the main thing is to use it well. - Rene Descartes",
+	"Honesty is the first chapter in the book of wisdom. - Thomas Jefferson",
+];

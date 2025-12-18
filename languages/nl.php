@@ -1,0 +1,23 @@
+<?php
+return [
+	"Voor mij is het veel beter om het heelal te begrijpen zoals het werkelijk is dan te volharden in waanideeën, hoe bevredigend en geruststellend ook. - Carl Sagan",
+	"Buitengewone beweringen vereisen buitengewoon bewijs. - Carl Sagan",
+	"We leven in een samenleving die buitengewoon afhankelijk is van wetenschap en technologie, waarin bijna niemand iets weet van wetenschap en technologie. - Carl Sagan",
+	"Wie is nederiger? De wetenschapper die met een open geest naar het universum kijkt en alles accepteert wat het universum ons te leren heeft, of iemand die zegt dat alles in dit boek als de letterlijke waarheid moet worden beschouwd en zich niet bekommert om de feilbaarheid van alle betrokken mensen? - Carl Sagan",
+	"Het eerste principe is dat je jezelf niet voor de gek mag houden en dat jij de gemakkelijkste persoon bent om voor de gek te houden. - Richard Feynman",
+	"Ik heb liever vragen die niet beantwoord kunnen worden dan antwoorden die niet in twijfel getrokken kunnen worden. - Richard Feynman",
+	"Religie is een cultuur van geloof; wetenschap is een cultuur van twijfel. - Richard Feynman",
+	"Er schuilt geen kwaad in twijfel en scepsis, want daardoor worden nieuwe ontdekkingen gedaan. - Richard Feynman",
+	"Het hele probleem met de wereld is dat dwazen en fanatici altijd zo zeker van zichzelf zijn, en wijzere mensen zo vol twijfels. - Bertrand Russell",
+	"Wees niet bang om excentriek te zijn in je mening, want elke mening die nu wordt geaccepteerd was ooit excentriek. - Bertrand Russell",
+	"Ik zou nooit sterven voor mijn overtuigingen omdat ik ongelijk zou kunnen hebben. - Bertrand Russell",
+	"In alle zaken is het gezond om af en toe een vraagteken te plaatsen bij de dingen die je lang als vanzelfsprekend hebt beschouwd. - Bertrand Russell",
+	"Geloof is de dood van intelligentie. - Robert Anton Wilson",
+	"Wat zonder bewijs beweerd kan worden, kan zonder bewijs verworpen worden. - Christopher Hitchens",
+	"We moeten de religie van de ander respecteren, maar alleen in de zin en in de mate waarin we zijn theorie respecteren dat zijn vrouw mooi is en zijn kinderen slim. - H.L. Mencken",
+	"Scepsis is de kuisheid van het intellect, en het is beschamend om het te snel over te geven aan de eerste de beste. - George Santayana",
+	"Wetenschap is het beste instrument dat we hebben om de wereld te begrijpen. - Julia Galef",
+	"Soldatenmentaliteit versus verkennersmentaliteit: De soldaat wil zijn overtuigingen verdedigen, de verkenner wil de dingen zien zoals ze werkelijk zijn. - Julia Galef",
+	"Het is niet genoeg om een goed verstand te hebben; het belangrijkste is om het goed te gebruiken. - René Descartes",
+	"Eerlijkheid is het eerste hoofdstuk in het boek van de wijsheid. - Thomas Jefferson",
+];
