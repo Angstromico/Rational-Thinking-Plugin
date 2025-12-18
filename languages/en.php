@@ -1,5 +1,13 @@
 <?php
 return [
+	'settings' => [
+		'title'          => 'Rational Thinking Settings',
+		'language_label' => 'Quote Language',
+		'description'    => 'Select the language for the daily quotes. This setting is unique to your user account.',
+		'save_button'    => 'Save Changes',
+		'saved_message'  => 'Language preference saved.',
+	],
+	'quotes' => [
 	"For me, it is far better to grasp the Universe as it really is than to persist in delusion, however satisfying and reassuring. - Carl Sagan",
 	"Extraordinary claims require extraordinary evidence. - Carl Sagan",
 	"We live in a society exquisitely dependent on science and technology, in which hardly anyone knows anything about science and technology. - Carl Sagan",
@@ -20,4 +28,5 @@ return [
 	"Soldier mindset vs Scout mindset: The soldier wants to defend their beliefs, the scout wants to see things as they really are. - Julia Galef",
 	"It is not enough to have a good mind; the main thing is to use it well. - Rene Descartes",
 	"Honesty is the first chapter in the book of wisdom. - Thomas Jefferson",
+	],
 ];

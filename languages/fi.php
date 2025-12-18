@@ -1,5 +1,13 @@
 <?php
 return [
+	'settings' => [
+		'title'          => 'Rationaalisen Ajattelun Asetukset',
+		'language_label' => 'Lainauksen Kieli',
+		'description'    => 'Valitse päivittäisten lainausten kieli. Tämä asetus on ainutlaatuinen käyttäjätilillesi.',
+		'save_button'    => 'Tallenna muutokset',
+		'saved_message'  => 'Kieliasetus tallennettu.',
+	],
+	'quotes' => [
 	"Minulle on paljon parempi ymmärtää maailmankaikkeus sellaisena kuin se todella on kuin pysyä harhaluulossa, olipa se kuinka tyydyttävä ja rauhoittava tahansa. - Carl Sagan",
 	"Yhäkkäät väitteet vaativat poikkeuksellisia todisteita. - Carl Sagan",
 	"Elämme yhteiskunnassa, joka on erinomaisen riippuvainen tieteestä ja teknologiasta, ja jossa tuskin kukaan tietää mitään tieteestä ja teknologiasta. - Carl Sagan",
@@ -20,4 +28,5 @@ return [
 	"Sotilaan ajattelutapa vs. tiedustelijan ajattelutapa: Sotilas haluaa puolustaa uskomuksiaan, tiedustelija haluaa nähdä asiat sellaisina kuin ne todella ovat. - Julia Galef",
 	"Ei riitä, että on hyvä mieli; pääasia on käyttää sitä hyvin. - Rene Descartes",
 	"Rehellisyys on viisauden kirjan ensimmäinen luku. - Thomas Jefferson",
+	],
 ];

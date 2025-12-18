@@ -1,5 +1,13 @@
 <?php
 return [
+	'settings' => [
+		'title'          => 'Instellingen Rationeel Denken',
+		'language_label' => 'Citaat Taal',
+		'description'    => 'Selecteer de taal voor de dagelijkse citaten. Deze instelling is uniek voor uw gebruikersaccount.',
+		'save_button'    => 'Wijzigingen opslaan',
+		'saved_message'  => 'Taalvoorkeur opgeslagen.',
+	],
+	'quotes' => [
 	"Voor mij is het veel beter om het heelal te begrijpen zoals het werkelijk is dan te volharden in waanideeën, hoe bevredigend en geruststellend ook. - Carl Sagan",
 	"Buitengewone beweringen vereisen buitengewoon bewijs. - Carl Sagan",
 	"We leven in een samenleving die buitengewoon afhankelijk is van wetenschap en technologie, waarin bijna niemand iets weet van wetenschap en technologie. - Carl Sagan",
@@ -20,4 +28,5 @@ return [
 	"Soldatenmentaliteit versus verkennersmentaliteit: De soldaat wil zijn overtuigingen verdedigen, de verkenner wil de dingen zien zoals ze werkelijk zijn. - Julia Galef",
 	"Het is niet genoeg om een goed verstand te hebben; het belangrijkste is om het goed te gebruiken. - René Descartes",
 	"Eerlijkheid is het eerste hoofdstuk in het boek van de wijsheid. - Thomas Jefferson",
+	],
 ];

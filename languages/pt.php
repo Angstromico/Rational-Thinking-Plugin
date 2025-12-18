@@ -1,5 +1,13 @@
 <?php
 return [
+	'settings' => [
+		'title'          => 'Configurações de Pensamento Racional',
+		'language_label' => 'Idioma da Citação',
+		'description'    => 'Selecione o idioma para as citações diárias. Esta configuração é exclusiva para sua conta de usuário.',
+		'save_button'    => 'Salvar Alterações',
+		'saved_message'  => 'Preferência de idioma salva.',
+	],
+	'quotes' => [
 	"Para mim, é muito melhor compreender o Universo como ele realmente é do que persistir no engano, por mais satisfatório e tranquilizador que seja. - Carl Sagan",
 	"Alegações extraordinárias exigem evidências extraordinárias. - Carl Sagan",
 	"Vivemos em uma sociedade primorosamente dependente da ciência e da tecnologia, na qual quase ninguém sabe nada sobre ciência e tecnologia. - Carl Sagan",
@@ -20,4 +28,5 @@ return [
 	"Mentalidade de soldado vs mentalidade de escoteiro: O soldado quer defender suas crenças, o escoteiro quer ver as coisas como elas realmente são. - Julia Galef",
 	"Não basta ter uma boa mente; o principal é usá-la bem. - Rene Descartes",
 	"A honestidade é o primeiro capítulo do livro da sabedoria. - Thomas Jefferson",
+	],
 ];

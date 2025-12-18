@@ -1,5 +1,13 @@
 <?php
 return [
+	'settings' => [
+		'title'          => 'Configuración de Pensamiento Racional',
+		'language_label' => 'Idioma de la Cita',
+		'description'    => 'Seleccione el idioma para las citas diarias. Esta configuración es única para su cuenta de usuario.',
+		'save_button'    => 'Guardar Cambios',
+		'saved_message'  => 'Preferencia de idioma guardada.',
+	],
+	'quotes' => [
 	"Para mí, es mucho mejor comprender el Universo tal como es realmente que persistir en el engaño, por muy satisfactorio y tranquilizador que sea. - Carl Sagan",
 	"Las afirmaciones extraordinarias requieren pruebas extraordinarias. - Carl Sagan",
 	"Vivimos en una sociedad exquisitamente dependiente de la ciencia y la tecnología, en la cual casi nadie sabe nada sobre ciencia y tecnología. - Carl Sagan",
@@ -20,4 +28,5 @@ return [
 	"Mentalidad de soldado vs mentalidad de explorador: El soldado quiere defender sus creencias, el explorador quiere ver las cosas como realmente son. - Julia Galef",
 	"No basta con tener una buena mente; lo principal es usarla bien. - Rene Descartes",
 	"La honestidad es el primer capítulo en el libro de la sabiduría. - Thomas Jefferson",
+	],
 ];

@@ -52,23 +52,53 @@ function rational_thinking_get_available_languages() {
 }
 
 /**
- * Get the list of quotes for a specific language.
+ * Get the data (quotes and settings) for a specific language.
  *
  * @param string $lang Language code.
- * @return array List of quotes.
+ * @return array Associative array containing 'quotes' and 'settings'.
  */
-function rational_thinking_get_quotes_for_language( $lang = 'en' ) {
+function rational_thinking_get_language_data( $lang = 'en' ) {
 	$file = plugin_dir_path( __FILE__ ) . 'languages/' . $lang . '.php';
+	
+	$data = array();
 	if ( file_exists( $file ) ) {
-		return include $file;
+		$data = include $file;
+	} else {
+		// Fallback to English
+		$en_file = plugin_dir_path( __FILE__ ) . 'languages/en.php';
+		if ( file_exists( $en_file ) ) {
+			$data = include $en_file;
+		}
 	}
-	// Fallback to English if file doesn't exist
-	$en_file = plugin_dir_path( __FILE__ ) . 'languages/en.php';
-	if ( file_exists( $en_file ) ) {
-		return include $en_file;
+
+	// Normalize data structure (Backward compatibility for simple array files)
+	if ( isset( $data[0] ) ) {
+		$data = array(
+			'quotes'   => $data,
+			'settings' => array(), // Will be merged with defaults below
+		);
 	}
-	// Ultimate fallback if files are missing
-	return array( "Rationality is the compass of the mind." );
+
+	// Default UI Strings (English)
+	$defaults = array(
+		'title'          => 'Rational Thinking Settings',
+		'language_label' => 'Quote Language',
+		'description'    => 'Select the language for the daily quotes. This setting is unique to your user account.',
+		'save_button'    => 'Save Changes',
+		'saved_message'  => 'Language preference saved.',
+	);
+
+	if ( ! isset( $data['settings'] ) ) {
+		$data['settings'] = array();
+	}
+
+	$data['settings'] = wp_parse_args( $data['settings'], $defaults );
+
+	if ( ! isset( $data['quotes'] ) ) {
+		$data['quotes'] = array( "Rationality is the compass of the mind." );
+	}
+
+	return $data;
 }
 
 /**
@@ -99,7 +129,8 @@ function rational_thinking_get_current_language() {
 
 function rational_thinking_get_quote() {
 	$lang = rational_thinking_get_current_language();
-	$quotes_list = rational_thinking_get_quotes_for_language( $lang );
+	$data = rational_thinking_get_language_data( $lang );
+	$quotes_list = $data['quotes'];
 
 	// Randomly choose a line
 	return wptexturize( $quotes_list[ mt_rand( 0, count( $quotes_list ) - 1 ) ] );
@@ -176,35 +207,46 @@ add_action( 'admin_menu', 'rational_thinking_add_settings_page' );
  * Render the settings page.
  */
 function rational_thinking_render_settings_page() {
+	$current_lang = rational_thinking_get_current_language();
+	// Load data for the *current* language to get translated UI strings
+	$data         = rational_thinking_get_language_data( $current_lang );
+	$ui           = $data['settings'];
+
 	// Handle form submission
 	if ( isset( $_POST['rational_thinking_save'] ) && check_admin_referer( 'rational_thinking_options_update' ) ) {
 		$new_lang = isset( $_POST['rational_thinking_lang'] ) ? sanitize_text_field( $_POST['rational_thinking_lang'] ) : 'en';
 		update_user_meta( get_current_user_id(), 'rational_thinking_lang', $new_lang );
-		echo '<div class="updated"><p>' . esc_html__( 'Language preference saved.', 'rational-thinking' ) . '</p></div>';
+		
+		// Reload data if language changed to show confirmation in new language
+		$current_lang = $new_lang;
+		$data         = rational_thinking_get_language_data( $current_lang );
+		$ui           = $data['settings'];
+
+		echo '<div class="updated"><p>' . esc_html( $ui['saved_message'] ) . '</p></div>';
 	}
 
-	$current_lang = rational_thinking_get_current_language();
 	$languages    = rational_thinking_get_available_languages();
 	?>
 	<div class="wrap">
-		<h1><?php echo esc_html__( 'Rational Thinking Settings', 'rational-thinking' ); ?></h1>
+		<!-- Please translate the Phrases here -->
+		<h1><?php echo esc_html( $ui['title'] ); ?></h1>
 		<form method="post" action="">
 			<?php wp_nonce_field( 'rational_thinking_options_update' ); ?>
 			<table class="form-table">
 				<tr valign="top">
-					<th scope="row"><label for="rational_thinking_lang"><?php echo esc_html__( 'Quote Language', 'rational-thinking' ); ?></label></th>
+					<th scope="row"><label for="rational_thinking_lang"><?php echo esc_html( $ui['language_label'] ); ?></label></th>
 					<td>
 						<select name="rational_thinking_lang" id="rational_thinking_lang">
 							<?php foreach ( $languages as $code => $label ) : ?>
 								<option value="<?php echo esc_attr( $code ); ?>" <?php selected( $current_lang, $code ); ?>><?php echo esc_html( $label ); ?></option>
 							<?php endforeach; ?>
 						</select>
-						<p class="description"><?php echo esc_html__( 'Select the language for the daily quotes. This setting is unique to your user account.', 'rational-thinking' ); ?></p>
+						<p class="description"><?php echo esc_html( $ui['description'] ); ?></p>
 					</td>
 				</tr>
 			</table>
 			<p class="submit">
-				<input type="submit" name="rational_thinking_save" id="submit" class="button button-primary" value="<?php echo esc_attr__( 'Save Changes', 'rational-thinking' ); ?>">
+				<input type="submit" name="rational_thinking_save" id="submit" class="button button-primary" value="<?php echo esc_attr( $ui['save_button'] ); ?>">
 			</p>
 		</form>
 	</div>

@@ -1,5 +1,13 @@
 <?php
 return [
+	'settings' => [
+		'title'          => 'Paramètres de la Pensée Rationnelle',
+		'language_label' => 'Langue de la Citation',
+		'description'    => 'Sélectionnez la langue pour les citations quotidiennes. Ce paramètre est unique à votre compte utilisateur.',
+		'save_button'    => 'Enregistrer les modifications',
+		'saved_message'  => 'Préférence de langue enregistrée.',
+	],
+	'quotes' => [
 	"Pour moi, il vaut bien mieux saisir l'Univers tel qu'il est vraiment que de persister dans l'illusion, aussi satisfaisante et rassurante soit-elle. - Carl Sagan",
 	"Des affirmations extraordinaires nécessitent des preuves extraordinaires. - Carl Sagan",
 	"Nous vivons dans une société délicieusement dépendante de la science et de la technologie, dans laquelle presque personne ne sait rien de la science et de la technologie. - Carl Sagan",
@@ -20,4 +28,5 @@ return [
 	"État d'esprit du soldat vs état d'esprit de l'éclaireur : Le soldat veut défendre ses croyances, l'éclaireur veut voir les choses telles qu'elles sont vraiment. - Julia Galef",
 	"Il ne suffit pas d'avoir un bon esprit ; l'essentiel est de bien l'utiliser. - René Descartes",
 	"L'honnêteté est le premier chapitre du livre de la sagesse. - Thomas Jefferson",
+	],
 ];

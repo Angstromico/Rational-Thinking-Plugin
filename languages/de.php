@@ -1,5 +1,13 @@
 <?php
 return [
+	'settings' => [
+		'title'          => 'Einstellungen für Rationales Denken',
+		'language_label' => 'Zitat-Sprache',
+		'description'    => 'Wählen Sie die Sprache für die täglichen Zitate. Diese Einstellung ist für Ihr Benutzerkonto eindeutig.',
+		'save_button'    => 'Änderungen speichern',
+		'saved_message'  => 'Sprachpräferenz gespeichert.',
+	],
+	'quotes' => [
 	"Für mich ist es weit besser, das Universum so zu erfassen, wie es wirklich ist, als in Täuschung zu verharren, wie befriedigend und beruhigend sie auch sein mag. - Carl Sagan",
 	"Außergewöhnliche Behauptungen erfordern außergewöhnliche Beweise. - Carl Sagan",
 	"Wir leben in einer Gesellschaft, die exquisit von Wissenschaft und Technologie abhängig ist, in der aber kaum jemand etwas über Wissenschaft und Technologie weiß. - Carl Sagan",
@@ -20,4 +28,5 @@ return [
 	"Soldaten-Denkweise vs. Pfadfinder-Denkweise: Der Soldat will seine Überzeugungen verteidigen, der Pfadfinder will die Dinge so sehen, wie sie wirklich sind. - Julia Galef",
 	"Es genügt nicht, einen guten Verstand zu haben; die Hauptsache ist, ihn gut zu gebrauchen. - Rene Descartes",
 	"Ehrlichkeit ist das erste Kapitel im Buch der Weisheit. - Thomas Jefferson",
+	],
 ];
