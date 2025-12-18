@@ -28,6 +28,16 @@ When activated, the plugin displays a random quote from renowned rationalists—
 wp plugin install rational-thinking --activate
 ```
 
+## Language Settings
+
+You can customize the language of the quotes (currently supports English and Spanish).
+
+1. Go to **Settings** > **Rational Thinking** in your WordPress admin dashboard.
+2. Select your preferred language from the dropdown menu.
+3. Click **Save Changes**.
+
+_Note: This setting is unique to your user account. Other users can set their own language preference._
+
 ## Frequently Asked Questions
 
 ### Who is quoted in this plugin?
