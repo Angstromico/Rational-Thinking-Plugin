@@ -9,7 +9,7 @@ Plugin URI: http://wordpress.org/plugins/rational-thinking/
 Description: This is not just a plugin, it symbolizes the importance of skepticism and rational thought. When activated you will randomly see a quote from famous rationalists like Carl Sagan, Bertrand Russell, or Richard Feynman in the upper right of your admin screen on every page.
 Author: Memz
 Version: 1.0.0
-Author URI: http://example.com/
+
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: rational-thinking

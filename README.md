@@ -3,7 +3,7 @@
 **Contributors:** Memz  
 **Tags:** random, quotes, rationalism, skepticism, science  
 **Requires at least:** WordPress 4.6  
-**Tested up to:** WordPress 6.7  
+**Tested up to:** WordPress 6.9  
 **Stable tag:** 1.0.0  
 **License:** GPLv2 or later  
 **License URI:** <http://www.gnu.org/licenses/gpl-2.0.html>
