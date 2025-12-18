@@ -10,6 +10,9 @@ Description: This is not just a plugin, it symbolizes the importance of skeptici
 Author: Memz
 Version: 1.0.0
 Author URI: http://example.com/
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: rational-thinking
 */
 
 function rational_thinking_get_quote() {
