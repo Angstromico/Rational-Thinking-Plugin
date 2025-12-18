@@ -15,6 +15,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: rational-thinking
 */
 
+if ( ! defined( 'ABSPATH' ) ) { exit; }
+
 function rational_thinking_get_quote() {
 	/** These are the quotes for Rational Thinking */
 	$quotes = "For me, it is far better to grasp the Universe as it really is than to persist in delusion, however satisfying and reassuring. - Carl Sagan
