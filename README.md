@@ -1,35 +1,54 @@
-=== Rational Thinking ===
-Contributors: Memz
-Tags: random, quotes, rationalism, skepticism, science
-Requires at least: 4.6
-Tested up to: 6.7
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# Rational Thinking Plugin
 
-This is not just a plugin, it symbolizes the importance of skepticism and rational thought. Inspired on Hello Dolly.
+**Contributors:** Memz  
+**Tags:** random, quotes, rationalism, skepticism, science  
+**Requires at least:** WordPress 4.6  
+**Tested up to:** WordPress 6.7  
+**Stable tag:** 1.0.0  
+**License:** GPLv2 or later  
+**License URI:** <http://www.gnu.org/licenses/gpl-2.0.html>
 
-== Description ==
+---
 
-When activated you will randomly see a quote from famous rationalists like Carl Sagan, Bertrand Russell, or Richard Feynman in the upper right of your admin screen on every page. This plugin is inspired by Hello Dolly.
+> _"This is not just a plugin; it symbolizes the importance of skepticism and rational thought."_
+>
+> Inspired by the classic **Hello Dolly** plugin.
 
-== Installation ==
+## Description
 
-1. Upload the `rational-thinking` folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+When activated, the plugin displays a random quote from renowned rationalists—such as **Carl Sagan**, **Bertrand Russell**, **Richard Feynman**, and modern thinkers like **Julia Galef**—in the upper‑right corner of the WordPress admin screen on every page.
 
-== Frequently Asked Questions ==
+## Installation
 
-= Who is quoted in this plugin? =
+1. **Upload** the `rational-thinking` folder to the `/wp-content/plugins/` directory.
+2. **Activate** the plugin via the **Plugins** menu in WordPress.
 
-Quotes are primarily from Carl Sagan, Richard Feynman, Bertrand Russell, and other modern rational thinkers like Julia Galef.
+```bash
+# Example using WP‑CLI
+wp plugin install rational-thinking --activate
+```
 
-= Can I add my own quotes? =
+## Frequently Asked Questions
 
-Currently, the quotes are hardcoded, but you can edit `rational-thinking.php` to add more.
+### Who is quoted in this plugin?
 
-== Changelog ==
+Quotes are primarily sourced from:
 
-= 1.0.0 =
+- Carl Sagan
+- Richard Feynman
+- Bertrand Russell
+- Julia Galef (and other modern rational thinkers)
 
-- Initial release.
+### Can I add my own quotes?
+
+Yes! The quotes are hard‑coded in `rational-thinking.php`. Feel free to edit that file and add your own entries.
+
+## Changelog
+
+### 1.0.0 – Initial Release
+
+- First public version of the Rational Thinking plugin.
+
+---
+
+_Enjoy a daily dose of rationality while you work!_
