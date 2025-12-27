@@ -1,5 +1,5 @@
 === Rational Thinking ===
-Contributors: Memz
+Contributors: Memz, manuelmorales
 Tags: random, quotes, rationalism, skepticism, science
 Requires at least: 4.6
 Tested up to: 6.9

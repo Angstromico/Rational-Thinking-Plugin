@@ -133,7 +133,7 @@ function rational_thinking_get_quote() {
 	$quotes_list = $data['quotes'];
 
 	// Randomly choose a line
-	return wptexturize( $quotes_list[ mt_rand( 0, count( $quotes_list ) - 1 ) ] );
+	return $quotes_list[ mt_rand( 0, count( $quotes_list ) - 1 ) ];
 }
 
 // This just echoes the chosen line, we'll position it later.
@@ -149,45 +149,21 @@ function rational_thinking() {
 
 	printf(
 		'<p id="rational-thinking"><span class="screen-reader-text">%s </span><span dir="ltr"%s>%s</span></p>',
-		__( 'Quote from a rational thinker:', 'rational-thinking' ),
+		esc_html__( 'Quote from a rational thinker:', 'rational-thinking' ),
 		$attr,
-		$chosen
+		wp_kses_post( wptexturize( $chosen ) )
 	);
 }
 
 // Now we set that function up to execute when the admin_notices action is called.
 add_action( 'admin_notices', 'rational_thinking' );
 
-// We need some CSS to position the paragraph.
-function rational_thinking_css() {
-	echo "
-	<style type='text/css'>
-	#rational-thinking {
-		float: right;
-		padding: 5px 10px;
-		margin: 0;
-		font-size: 12px;
-		line-height: 1.6666;
-	}
-	.rtl #rational-thinking {
-		float: left;
-	}
-	.block-editor-page #rational-thinking {
-		display: none;
-	}
-	@media screen and (max-width: 782px) {
-		#rational-thinking,
-		.rtl #rational-thinking {
-			float: none;
-			padding-left: 0;
-			padding-right: 0;
-		}
-	}
-	</style>
-	";
+// Enqueue CSS
+function rational_thinking_enqueue_scripts() {
+	wp_enqueue_style( 'rational-thinking', plugin_dir_url( __FILE__ ) . 'css/rational-thinking.css', array(), '1.0.0' );
 }
 
-add_action( 'admin_head', 'rational_thinking_css' );
+add_action( 'admin_enqueue_scripts', 'rational_thinking_enqueue_scripts' );
 
 /**
  * Register the settings page.

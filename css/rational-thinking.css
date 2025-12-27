@@ -1,0 +1,21 @@
+#rational-thinking {
+  float: right;
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.6666;
+}
+.rtl #rational-thinking {
+  float: left;
+}
+.block-editor-page #rational-thinking {
+  display: none;
+}
+@media screen and (max-width: 782px) {
+  #rational-thinking,
+  .rtl #rational-thinking {
+    float: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

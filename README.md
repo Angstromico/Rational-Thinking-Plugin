@@ -1,6 +1,6 @@
 # Rational Thinking Plugin
 
-**Contributors:** Memz  
+**Contributors:** Memz, manuelmorales  
 **Tags:** random, quotes, rationalism, skepticism, science  
 **Requires at least:** WordPress 4.6  
 **Tested up to:** WordPress 6.9  
